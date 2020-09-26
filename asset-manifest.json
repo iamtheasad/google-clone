@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iamtheasad/google-clone.git/static/css/main.5f361e03.chunk.css",
+    "main.js": "/iamtheasad/google-clone.git/static/js/main.7234ae13.chunk.js",
+    "main.js.map": "/iamtheasad/google-clone.git/static/js/main.7234ae13.chunk.js.map",
+    "runtime-main.js": "/iamtheasad/google-clone.git/static/js/runtime-main.bc0178e5.js",
+    "runtime-main.js.map": "/iamtheasad/google-clone.git/static/js/runtime-main.bc0178e5.js.map",
+    "static/js/2.0801162a.chunk.js": "/iamtheasad/google-clone.git/static/js/2.0801162a.chunk.js",
+    "static/js/2.0801162a.chunk.js.map": "/iamtheasad/google-clone.git/static/js/2.0801162a.chunk.js.map",
+    "index.html": "/iamtheasad/google-clone.git/index.html",
+    "precache-manifest.3163f56abd80d13d3f8b73bb66f876e4.js": "/iamtheasad/google-clone.git/precache-manifest.3163f56abd80d13d3f8b73bb66f876e4.js",
+    "service-worker.js": "/iamtheasad/google-clone.git/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/iamtheasad/google-clone.git/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0801162a.chunk.js.LICENSE.txt": "/iamtheasad/google-clone.git/static/js/2.0801162a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/iamtheasad/google-clone.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc0178e5.js",
+    "static/js/2.0801162a.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7234ae13.chunk.js"
+  ]
+}
