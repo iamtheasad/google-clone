@@ -9,7 +9,7 @@
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
-<<<<<<< HEAD
+
 }
 
 .home__header a {
@@ -46,6 +46,4 @@
 .home__body img {
     object-fit: contain;
     height: 100px;
-=======
->>>>>>> e5d57adaa1e3a5be91d7ca4939d1907f2c5f5849
 }
