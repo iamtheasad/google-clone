@@ -3,11 +3,11 @@ import './Home.css';
 import {Link} from "react-router-dom";
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
+import Search from "../Search";
 
 function Home() {
     return (
         <div className="home">
-            <h1>Hello Home</h1>
             <div className="home__header">
                 <div className="home__headerLeft">
                     <Link to="/about">About</Link>
@@ -18,8 +18,6 @@ function Home() {
                     <Link to="/images">Images</Link>
                     <AppsIcon/>
                     <Avatar/>
-                    <Link to="/iamges">Images</Link>
-                    <Link to="/about">About</Link>
                 </div>
             </div>
             {/*home__header end*/}
@@ -28,7 +26,7 @@ function Home() {
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Logo"/>
 
                 <div className="home__inputContainer">
-
+                    <Search/>
                 </div>
             </div>
             {/*Home Body end*/}
