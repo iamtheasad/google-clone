@@ -30,7 +30,6 @@ function Home() {
                 </div>
             </div>
             {/*Home Body end*/}
-
         </div>
     );
 };
