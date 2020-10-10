@@ -23,7 +23,7 @@ function Home() {
             {/*home__header end*/}
 
             <div className="home__body">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Logo"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Google Logo"/>
 
                 <div className="home__inputContainer">
                     <Search/>
