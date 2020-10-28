@@ -32,6 +32,6 @@ function Home() {
             {/*Home Body end*/}
         </div>
     );
-};
+}
 
 export default Home;
