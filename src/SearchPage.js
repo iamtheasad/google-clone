@@ -15,9 +15,10 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 const SearchPage = () => {
     const [{term}, dispatch] = useStateValue();
     // Live api call
-    // const { data } = useGoogleSearch(term);
-    const data = Response;
+    const { data } = useGoogleSearch(term);
 
+    // Mock API Call
+    // const data = Response;
 
     console.log(data);
 
@@ -72,9 +73,38 @@ const SearchPage = () => {
                 </div>
             </div>
 
-            <div className="searchPage__results">
+            {term && (
+                <div className="searchPage__results">
+                    <p className="searchPage__resultCount">
+                        About {data?.searchInformation.formattedTotalResults} results
+                        ({data?.searchInformation.formattedSearchTime} seconds) for {term}
+                    </p>
 
-            </div>
+                    {data?.items.map(item => (
+                        <div className="searchPage__result">
+                            <a href={item.link}>
+                                {item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src && (
+                                    <img
+                                    className="searchPage__ResultImage"
+                                    src={item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src}
+                                    alt="Search Image"
+                                    />
+                                    )}
+                                {item.displayLink} &nabla;
+                            </a>
+
+                            <a className="searchPage__resultTitle" href={item.link}>
+                                <h2>{item.title}</h2>
+                            </a>
+
+                            <p className="searchPage__resultSnippet">
+                                {item.snippet}
+                            </p>
+                        </div>
+
+                    ))}
+                </div>
+            )}
         </div>
     );
 };
